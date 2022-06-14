@@ -1,0 +1,26 @@
+{
+  "name": "simple-crud-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon ./server.js localhost 5000",
+    "start:prod": "webpack && node ./dist/bundle.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "babel-loader": "^8.2.5",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.0.0",
+    "nodemon": "^2.0.15",
+    "uuid": "^8.3.2",
+    "webpack": "^5.72.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  }
+}
