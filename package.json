@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon ./src/server.ts localhost 5000",
-    "start:prod": "webpack && node ./dist/bundle.cjs"
+    "start:prod": "webpack && node ./dist/bundle.js"
   },
   "author": "",
   "license": "ISC",
